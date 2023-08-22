@@ -1,7 +1,7 @@
 tags:
     - Order
-summary: Retrieve a Transaction
-description: Retrieve the details of transactions created for an order with specified `orderId`.
+summary: Pobierz szczegóły transakcji
+description: Pobierz szczegóły transakcji utworzonych dla zamówienia o określonym `orderId`.
 operationId: retrieve-a-transaction
 security:
     - Bearer: [oAuth token]

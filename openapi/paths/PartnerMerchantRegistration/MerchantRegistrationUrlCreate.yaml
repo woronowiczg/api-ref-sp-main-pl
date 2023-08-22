@@ -1,7 +1,7 @@
 tags:
     - Partner-Merchant-Registration
-summary: Create a URL for the Partner's Firm
-description: Create a URL for the specified `firmId`.
+summary: Firm Stwórz URL dla Firmy sprzedawcy
+description: Utwórz URL dla określonego `firmId`.
 operationId: create-a-url-for-the-partners-firm
 security:
     - Bearer:

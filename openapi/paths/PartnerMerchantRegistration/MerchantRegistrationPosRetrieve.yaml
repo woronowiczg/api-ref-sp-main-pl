@@ -1,7 +1,7 @@
 tags:
     - Partner-Merchant-Registration
-summary: Retrieve Partner's POS Data
-description: Retrieve data of the POS with specified `posId`.
+summary: Pobierz dane POS sprzedawcy
+description: Pobierz dane POS o określonym `posId`.
 operationId: retrieve-partners-pos-data
 security:
     - Bearer:

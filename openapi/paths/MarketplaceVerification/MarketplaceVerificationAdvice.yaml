@@ -1,7 +1,7 @@
 tags:
     - Marketplace-Verification
-summary: Retrieve Verification Advice
-description: Verify, on the basis of a Personal Identification Number or NIP number, whether a given individual/company has already been registered in the PayU system.
+summary: Sprawdź rejestrację sprzedawcy
+description: Zweryfikuj na podstawie numeru identyfikacji osobistej (PESEL) lub numeru identyfikacji podatkowej (NIP), czy dana osoba lub firma jest już zarejestrowana w systemie PayU.
 operationId: retrieve-marketplace-verification-advice
 parameters:
     - name: companyTaxId

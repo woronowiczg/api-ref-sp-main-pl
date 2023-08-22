@@ -1,7 +1,7 @@
 tags:
     - Marketplace-Verification
-summary: Add Bank Account for Payouts
-description: Send bank account data for the payouts.
+summary: Dodaj rachunek bankowy do wypłat
+description: Prześlij dane rachunku bankowego do wypłat.
 operationId: add-bank-account-for-payouts
 parameters:
     #- name: loremIpsum

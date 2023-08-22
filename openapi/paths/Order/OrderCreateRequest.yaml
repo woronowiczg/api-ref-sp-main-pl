@@ -1,6 +1,6 @@
 tags:
     - Order
-summary: Create an Order
+summary: Stwórz zamówienie
 security:
     - Bearer: [client_credentials, trusted_merchant]
 description: Create a new order request.

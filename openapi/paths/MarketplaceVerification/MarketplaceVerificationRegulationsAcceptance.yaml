@@ -1,6 +1,6 @@
 tags:
     - Marketplace-Verification
-summary: Accept Regulations
+summary: Akceptacja regulaminów
 description: ''
 operationId: marketplace-verification-regulations-acceptance
 parameters:

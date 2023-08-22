@@ -1,6 +1,6 @@
 tags:
     - PF-Submerchant-Registration
-summary: Update Submerchants Data
+summary: Zaktualizuj dane submerchanta
 description: ''
 operationId: update-submerchants-data
 parameters:

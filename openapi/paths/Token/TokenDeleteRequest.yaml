@@ -1,10 +1,10 @@
 tags:
     - Token
-summary: Delete a Token
+summary: Usuń token
 security:
     - Bearer:
           - trusted_merchant
-description: In case the customer terminates the user account in your shop or chooses to remove the stored card from the user account, you need to delete the token.
+description: W przypadku, gdy klient zamknie swoje konto w twoim sklepie lub zdecyduje się usunąć przechowywaną kartę z konta użytkownika, musisz usunąć token.
 operationId: delete-a-token
 parameters:
     - name: token

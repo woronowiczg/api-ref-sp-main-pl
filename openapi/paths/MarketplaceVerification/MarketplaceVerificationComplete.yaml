@@ -1,6 +1,6 @@
 tags:
     - Marketplace-Verification
-summary: Complete Marketplace Verification
+summary: Zakończ weryfikację sprzedawcy
 description: Inform PayU about completing verification process.
 operationId: complete-marketplace-verification
 parameters:

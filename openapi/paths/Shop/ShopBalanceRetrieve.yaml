@@ -1,8 +1,8 @@
 tags:
     - Shop
-summary: Retrieve Shop Data
+summary: Pobierz szczegóły Sklepu
 operationId: retrieve-shop-data
-description: Retrieve your PayU shop balance, id, etc.
+description: Pobierz saldo swojego sklepu PayU, jego identyfikator itp.
 parameters:
     - name: shopId
       in: path

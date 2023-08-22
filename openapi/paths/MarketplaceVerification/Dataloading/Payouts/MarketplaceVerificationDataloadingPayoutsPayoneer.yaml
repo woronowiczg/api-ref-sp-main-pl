@@ -1,7 +1,7 @@
 tags:
     - Marketplace-Verification
-summary: Add Payoneer Account for Payouts
-description: Send bank account data for the payouts. Method is reserved for the users who have verified Payoneer account.
+summary: Dodaj konto Payoneer dla wypłat
+description: Prześlij dane konta bankowego dla wypłat. Metoda jest zastrzeżona dla użytkowników posiadających zweryfikowane konto Payoneer.
 operationId: add-payoneer-account-for-payouts
 parameters:
     #- name: loremIpsum

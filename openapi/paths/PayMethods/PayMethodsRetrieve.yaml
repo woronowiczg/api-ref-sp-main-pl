@@ -1,6 +1,6 @@
 tags:
     - Payment-Methods
-summary: Retrieve All Available Payment Methods.
+summary: Pobierz dostepne metody płatności
 security:
     - Bearer: [client_credentials, trusted_merchant]
 operationId: retrieve-payment-methods

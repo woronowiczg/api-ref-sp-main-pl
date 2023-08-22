@@ -1,6 +1,6 @@
 tags:
     - Marketplace-Verification
-summary: Retrieve Marketplace Verification Status
+summary: Pobierz status weryfikacyjny sprzedawcy
 description: 'Retrieve the status of the verification with the specific `Id`.'
 operationId: retrieve-marketplace-verification-status
 parameters:

@@ -1,6 +1,6 @@
 tags:
     - Marketplace-Seller
-summary: Retrieve Seller Status
+summary: Pobierz status sprzedawcy
 description: Marketplace Seller Status
 operationId: retrieve-seller-status
 parameters:

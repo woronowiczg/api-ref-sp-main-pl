@@ -1,7 +1,7 @@
 tags:
     - Marketplace-Verification
-summary: Add Seller's Documents
-description: This method allows to load company related documents.
+summary: Add Seller's Documents Dodaj dokumenty sprzedawcy
+description: Ta metoda pozwala na załadowanie dokumentów związanych z firmą.
 operationId: add-sellers-documents
 parameters:
     #- name: loremIpsum

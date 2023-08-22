@@ -1,6 +1,6 @@
 tags:
     - Marketplace-Verification
-summary: Create Marketplace Verification
+summary: Rozpocznij weryfikację sprzedawcy
 description: Initialize the verification process of the seller.
 operationId: create-marketplace-verification
 parameters:

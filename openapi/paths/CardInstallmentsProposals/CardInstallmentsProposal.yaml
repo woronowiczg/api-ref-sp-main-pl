@@ -1,6 +1,6 @@
 tags:
     - Card-Installments-Proposal
-summary: Retrieve Card Installments Proposal
+summary: Pobierz propozycję ratalną
 description: ''
 operationId: proposal-retrieve-card-installments-proposal
 parameters:

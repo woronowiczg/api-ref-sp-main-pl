@@ -1,7 +1,7 @@
 tags:
     - Marketplace-Verification
-summary: Add Worldfirst Account for Payouts
-description: Send bank account data for the payouts. Method is reserved for the users who have verified Worldfirst account.
+summary: Dodaj konto Wordlfirst dla wypłat
+description: Prześlij dane konta bankowego dla wypłat. Metoda jest zastrzeżona dla użytkowników posiadających zweryfikowane konto w WorldFirst.
 operationId: add-worldfirst-account-for-payouts
 parameters:
     #- name: loremIpsum

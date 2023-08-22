@@ -1,6 +1,6 @@
 tags:
     - Partner-Merchant-Registration
-summary: Create POS for Partner
+summary: Stwórz POS dla sprzedawcy
 description: Create a POS, for your partner, for the specified `shopId`.
 operationId: create-pos-for-partner
 security:

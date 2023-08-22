@@ -1,7 +1,7 @@
 tags:
     - Marketplace-Verification
-summary: Add Files
-description: Upload documents to the server.
+summary: Dodaj pliki
+description: Prześlij dokumenty na serwer.
 operationId: add-files
 parameters:
     #- name: loremIpsum

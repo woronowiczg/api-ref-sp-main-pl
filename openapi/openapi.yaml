@@ -16,47 +16,51 @@ servers:
       description: Sandbox Test Server
 tags:
     - name: Authorize
+      x-displayName: Autoryzacja
       description: Authentication involves generating an OAuth token, which is used for further communication with PayU servers. To create a standard OAuth token, you will need <code>client_id</code> and <code>client_secret</code> keys, which can be found in your merchant panel, in the POS.
     - name: Payment-Methods
-      x-displayName: Payment Methods
+      x-displayName: Metody płatności
       description: Retrieving payment methods allows you to remove the threat of presenting a disabled payment method with white-label integration. It also gives you the ability to retrieve stored tokens and customer card data.
     - name: Order
-      x-displayName: Order
+      x-displayName: Zamówienie
       description: Order is the basic payment request for the standard integration with PayU.
     - name: Shop
+      x-displayName: Sklep
       description: Shop is the main entity in the management panel. It is the place where you can manage incoming transactions processed by PayU.
     - name: Refund
+      x-displayName: Zwrot
       description: The PayU system fully supports refunds for the processed payments, the balance of which is transferred directly to the buyer's account.
     - name: Payout
+      x-displayName: Wypłata
       description: To widthraw funds from the PayU account you need to create a payout.
     - name: Token
       description: With tokenization, we are confident that your customers' card data is protected from third parties.
     - name: MCP
-      x-displayName: Multi-Currency Pricing
+      x-displayName: Płatności wielowalutowe
       description: We can convert your customers' payments to the currency of your shop set up with PayU.
     - name: FX-Reference
-      x-displayName: FX Reference
+      x-displayName: Kursy referencyjne
       description: According to regulations in the European Union countries, payment service providers and parties providing currency conversion services at the point of sale are obliged to express the total currency conversion charges as a percentage mark-up over the latest available euro foreign exchange reference rates issued by the European Central Bank (ECB).
     - name: Card-Installments-Proposal
-      x-displayName: Card Installments Proposal
+      x-displayName: Propozycja ratalna
       description: ''
     - name: Marketplace-Seller
-      x-displayName: Marketplace Seller
+      x-displayName: Zarządzanie sprzedawcą w Marketplace
       description: ''
     - name: Marketplace-Verification
-      x-displayName: Marketplace Verification
+      x-displayName: Weryfikacja Marketplace
       description: 'PayU is required by the Anti-Money Laundering Act to verify customers in this context. For this purpose, we provide a collection of endpoints to make it easier for you to verify sellers.'
     - name: Statements
-      x-displayName: Statements
+      x-displayName: Zestawienia
       description: ''
     # - name: Visa-Checkout-Proxy
     #   x-displayName: Visa Checkout Proxy
     #   description: ''
     - name: Partner-Merchant-Registration
-      x-displayName: Partner Merchant Registration
+      x-displayName: Rejestracja sprzedawcy - Program partnerski
       description: ''
     - name: PF-Submerchant-Registration
-      x-displayName: Payment Facilitator Submerchant Registration
+      x-displayName: Rejestracja sprzedawcy - Payment Facilitator
       description: ''
 paths:
     /pl/standard/user/oauth/authorize:

@@ -1,7 +1,7 @@
 tags:
     - Marketplace-Verification
-summary: Add Associates Documents
-description: Upload required documents for associates (representatives or beneficiaries).
+summary: Dodaj dokumenty przedstawicieli
+description: Załaduj wymagane dokumenty dla współpracowników (reprezentantów lub beneficjentów).
 operationId: add-associates-documents
 parameters:
     #- name: loremIpsum

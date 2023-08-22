@@ -1,6 +1,6 @@
 tags:
     - Marketplace-Verification
-summary: Cancel Verification
+summary: Anuluj weryfikację
 description: Cancel verification on every step of verification providing the reason.
 operationId: cancel-marketplace-verification
 parameters:

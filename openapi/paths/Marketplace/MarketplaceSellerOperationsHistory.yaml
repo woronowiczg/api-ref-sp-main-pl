@@ -1,6 +1,6 @@
 tags:
     - Marketplace-Seller
-summary: Retrieve Seller Operation History
+summary: Pobierz historię operacji sprzedawcy
 description: ''
 operationId: retrieve-seller-operation-history
 parameters:

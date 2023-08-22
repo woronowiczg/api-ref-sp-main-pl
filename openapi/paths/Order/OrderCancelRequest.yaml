@@ -1,7 +1,7 @@
 tags:
     - Order
-summary: Cancel an Order
-description: Cancel (reject) orders processed by the PayU system.
+summary: Anuluj zamówienie
+description: Anuluj (odrzuć) zamówienie przetworzone przez system PayU.
 operationId: cancel-an-order
 parameters:
     - name: orderId

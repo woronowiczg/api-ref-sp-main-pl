@@ -1,6 +1,6 @@
 tags:
     - PF-Submerchant-Registration
-summary: Retrieve Submerchant Data
+summary: Pobierz dane submerchanta
 description: ''
 operationId: retrieve-submerchant-data
 parameters:

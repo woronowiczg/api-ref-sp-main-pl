@@ -1,6 +1,6 @@
 tags:
     - Authorize
-summary: Create OAuth Token
+summary: Wygeneruj token OAuth
 security: []
 description: |
     Each payment should be authorized in one of three available modes: 

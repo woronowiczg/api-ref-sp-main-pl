@@ -1,6 +1,6 @@
 tags:
     - Marketplace-Verification
-summary: Create Order for Verification Transfer
+summary: Stwórz zamówienie dla transferu weryfikacyjnego
 description: Create an order for the verification transfer service. In response you will be provided with the bank account details to make the transfer.
 operationId: create-order-for-verification-transfer
 parameters:

@@ -1,7 +1,7 @@
 tags:
     - Order
-summary: Capture Authorized Order
-description: Capture an order and update its status to COMPLETED (ended).
+summary: Odbierz zamówienie
+description: Odbierz zamówienie i zaktualizuj jego status na COMPLETED (zakończone).
 operationId: capture-authorized-order
 parameters:
     - name: orderId

@@ -1,7 +1,7 @@
 tags:
     - Order
-summary: Retrieve an Order
-description: Retrieve the status and details of an order.
+summary: Pobierz szczegóły zamówienia
+description: Pobierz status oraz szczegóły zamówienia.
 operationId: retrieve-an-order
 parameters:
     - name: orderId

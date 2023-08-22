@@ -1,7 +1,7 @@
 tags:
     - MCP
-summary: Retrieve Rate Table
-description: Retrieve current table with the conversion rates for the currencies.
+summary: Retrieve Rate Table Pobierz tabelę kursową
+description: Pobierz aktualną tabelę z kursami wymiany walut.
 operationId: retrieve-rate-table
 parameters:
     - name: mcpPartnerId

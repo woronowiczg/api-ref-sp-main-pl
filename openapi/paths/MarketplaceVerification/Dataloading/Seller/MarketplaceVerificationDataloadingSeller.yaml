@@ -1,7 +1,7 @@
 tags:
     - Marketplace-Verification
-summary: Add Seller's Data
-description: This method allows to send data of the seller (submerchant).
+summary: Add Seller's Data Dodaj dane sprzedawcy
+description: Ta metoda pozwala na przesłanie danych sprzedawcy (submerchanta).
 operationId: add-sellers-data
 parameters:
     #- name: loremIpsum

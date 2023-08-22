@@ -1,6 +1,6 @@
 tags:
     - Refund
-summary: Retrieve Specific Refund Data
+summary: Pobierz szczegóły konkretnego zwrotu
 operationId: retrieve-specific-refund
 parameters:
     - name: orderId

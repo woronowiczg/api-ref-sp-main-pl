@@ -1,7 +1,7 @@
 tags:
     - Statements
-summary: Retrieve Statement
-description: Stetement retrieval via API
+summary: Pobierz zestawienia
+description: ''
 operationId: retrieve-statement
 security:
     - Basic:

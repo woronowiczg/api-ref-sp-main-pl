@@ -1,14 +1,14 @@
-# Overview
+# Przegląd
 
-This reference is designed to assist you in effectively utilizing the PayU REST API to enhance your online payment capabilities. Whether you're running an e-commerce store or developing applications that require secure and seamless payment processing, our API offers a range of features to meet your needs.
+To opracowanie ma na celu pomóc ci w efektywnym wykorzystaniu interfejsu API REST PayU. Bez względu na to, czy prowadzisz sklep internetowy, czy tworzysz aplikacje wymagające bezpiecznego i bezproblemowego przetwarzania płatności, nasze API oferuje szereg funkcji, które sprostają twoim potrzebom.
 
-Our API offers a comprehensive set of endpoints to empower you with full control over your payment processes. With these endpoints, you can seamlessly create, capture, cancel, and retrieve orders, conduct payouts, and access essential reports.
+Nasze API oferuje wszechstronny zestaw endpointów, które umożliwiają ci pełną kontrolę nad procesami płatności. Dzięki nim możesz bezproblemowo tworzyć, ujmować, anulować i pobierać zamówienia, przeprowadzać wypłaty oraz uzyskiwać dostęp do istotnych raportów i więcej.
 
-For more details on the integration, please refer to the official <b><a href="/docs/">PayU documentation</a></b>. It provides comprehensive explanations, code samples, and best practices for seamless integration of the PayU API into your applications.
+Aby uzyskać więcej szczegółów na temat integracji, zapoznaj się z oficjalną <b><a href="/pl/docs/">dokumentacją PayU</a></b>. Zawiera ona wyczerpujące wyjaśnienia, przykłady oraz najlepsze praktyki dotyczące bezproblemowej integracji interfejsu API PayU w twoich aplikacjach.
 
-## Testing
+## Testowanie
 
-### Production Environment
+### Środowisko produkcyjne
 
 For a basic integration, including only a redirection to PayU hosted payment page, it is perfectly enough to use the public test point of sale. However, if you would like to test a full set of endpoints, including e.g. refunds, consider registering for a sandbox account.
 
@@ -21,7 +21,7 @@ For a basic integration, including only a redirection to PayU hosted payment pag
 | Second key (MD5)               | 13a980d4f851f3d9a1cfc792fb1f5e50 |
 | OAuth protocol - client_secret | 12f071174cb7eb79d4aac5bc2f07563f |
 
-### Sandbox Environment
+### Środowisko sandbox
 
 Sandbox is an almost identical copy of PayU production system. It can be used for integration and testing purposes.
 
@@ -42,7 +42,7 @@ The availability of the sandbox environment can be checked on the <b><a href="ht
 
 In order to test card payments on sandbox, please use credentials displayed on the <b><a href="/docs/testing/sandbox/" target="_blank">Sandbox</a></b> documentation page.
 
-## Status Codes
+## Kody statusów
 
 > Below is a list of status codes sent by the PayU system. Some status codes may be sent with a more detailed message.
 
@@ -247,7 +247,7 @@ If you need for PayU technical support to investigate an unsuccessful API call, 
     </tbody>
 </table>
 
-## Card Status Codes
+## Kortowe kody statusów
 
 **Reason** column shows which side stopped the transaction and who should be contacted to give more information about the source of problem.
 
@@ -556,7 +556,7 @@ If you need for PayU technical support to investigate an unsuccessful API call, 
     </tbody>
 </table>
 
-## ECI (Electronic Commerce Indicator) Response Codes
+## Kody odpowiedzi ECI (Electronic Commerce Indicator)
 
 <table>
     <thead>
@@ -592,7 +592,7 @@ If you need for PayU technical support to investigate an unsuccessful API call, 
     
 </table>
 
-## Card 3DS Statuses
+## Statusy 3DS
 
 <table>
     <thead>
@@ -650,7 +650,7 @@ If you need for PayU technical support to investigate an unsuccessful API call, 
 
 </table>
 
-## Transmission Encryption
+## Szyfroweanie połączenia
 
 > Since 30 June 2018 PayU supports only TLS 1.2 protocol.
 

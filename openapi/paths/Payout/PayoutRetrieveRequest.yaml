@@ -1,7 +1,7 @@
 tags:
     - Payout
-summary: Retrieve a Payout
-description: Retrieve data of a specified payout.
+summary: Pobierz szczegóły wypłaty
+description: Pobierz szczegóły określonej wypłaty.
 operationId: retrieve-a-payout
 parameters:
     - name: payoutId

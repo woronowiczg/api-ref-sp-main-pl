@@ -1,6 +1,6 @@
 tags:
     - Marketplace-Seller
-summary: Retrieve Seller Balance
+summary: Sprawdź bilans sprzedawcy
 description: ''
 operationId: retrieve-seller-balance
 parameters:

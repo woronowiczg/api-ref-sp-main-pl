@@ -1,6 +1,6 @@
 tags:
     - Marketplace-Seller
-summary: Transfer Funds from Marketplace to Seller Balance
+summary: Prześlij środki z bilansu marketplace do sprzedawcy
 description: ''
 operationId: transfer-funds-from-marketplace-to-seller-balance
 parameters:

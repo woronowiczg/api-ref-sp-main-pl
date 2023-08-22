@@ -1,7 +1,7 @@
 tags:
     - Payout
-summary: Create a Payout
-description: Create a payout with the selected destination of funds.
+summary: Stwórz wypłatę
+description: Utwórz wypłatę z wybranym miejscem docelowym środków.
 operationId: create-a-payout
 parameters:
     $ref: ../../components/headers/ReqHeaders.yaml

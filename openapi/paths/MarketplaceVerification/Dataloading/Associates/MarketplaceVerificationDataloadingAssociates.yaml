@@ -1,7 +1,7 @@
 tags:
     - Marketplace-Verification
-summary: Add Associates Data
-description: Send the data of the associates (representatives and beneficiaries according to the relevant instructions from PayU).
+summary: Dodaj dane przedstawicieli
+description: Prześlij dane dotyczące współpracowników (reprezentantów i beneficjentów zgodnie z odpowiednimi instrukcjami od PayU).
 operationId: add-associates-data
 parameters:
     #- name: loremIpsum

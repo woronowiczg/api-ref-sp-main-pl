@@ -1,7 +1,7 @@
 tags:
     - Partner-Merchant-Registration
-summary: Create a Shop for the Partner
-description: Create a Shop for the specified `firmId`.
+summary: Stwórz sklep dla sprzedawcy
+description: Utwórz sklep dla określonego `firmId`.
 operationId: create-a-shop-for-the-partner
 security:
     - Bearer:

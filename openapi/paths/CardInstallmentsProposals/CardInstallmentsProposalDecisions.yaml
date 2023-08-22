@@ -1,6 +1,6 @@
 tags:
     - Card-Installments-Proposal
-summary: Send Payer's Decision
+summary: Prześlij decyzję płatnika
 description: ''
 operationId: card-installments-proposal-send-payers-decision
 parameters:

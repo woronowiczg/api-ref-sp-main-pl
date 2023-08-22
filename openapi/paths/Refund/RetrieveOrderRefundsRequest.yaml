@@ -1,6 +1,6 @@
 tags:
     - Refund
-summary: Retrieve ALL Refunds Data for the Specified Order
+summary: Pobierz szczegóły wszystkich zwrotów dla konkretnego zamówienia
 operationId: retrieve-all-refunds-for-the-specified-order
 parameters:
     - name: orderId

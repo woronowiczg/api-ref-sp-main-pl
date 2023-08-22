@@ -1,7 +1,7 @@
 tags:
     - Refund
-summary: Create a Refund
-description: Create new refund - this request is idempotent, so if exactly same data will be provided, response will return data of already previously created refund instead of creating new refund.
+summary: Stwórz zwrot
+description: Utwórz nowy zwrot środków - to żądanie jest idempotentne, więc jeśli zostaną dostarczone dokładnie takie same dane, odpowiedź zwróci dane już wcześniej utworzonego zwrotu środków zamiast tworzyć nowy zwrot.
 operationId: create-a-refund
 parameters:
     - name: orderId

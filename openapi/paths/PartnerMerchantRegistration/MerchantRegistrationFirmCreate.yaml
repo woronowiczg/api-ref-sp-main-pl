@@ -1,7 +1,7 @@
 tags:
     - Partner-Merchant-Registration
-summary: Create a Firm
-description: Partner Merchant Registration Firm Create
+summary: Stwórz Firmę dla sprzedawcy
+description: ''
 operationId: create-a-firm
 security:
     - Bearer:
