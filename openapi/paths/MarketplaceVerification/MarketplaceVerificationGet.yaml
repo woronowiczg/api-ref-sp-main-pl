@@ -1,0 +1,46 @@
+tags:
+    - Marketplace-Verification
+summary: Retrieve Marketplace Verification Status
+description: 'Retrieve the status of the verification with the specific `Id`.'
+operationId: retrieve-marketplace-verification-status
+parameters:
+    - name: id
+      in: query
+      description: 'Value of the query `id` parameter is the same as the `verificationId`.'
+      example: aZl6Ja
+      required: true
+      content:
+          application/json:
+              schema:
+                  type: string
+    - name: Content-Type
+      in: header
+      description: Content type
+      required: true
+      schema:
+          type: string
+      style: simple
+      example: application/json
+    - name: Authorization
+      in: header
+      description: Auth token
+      required: true
+      schema:
+          type: string
+      style: simple
+      example: Bearer 3e5cac39-7e38-4139-8fd6-30adc06a61bd
+responses:
+    200:
+        x-summary: 'OK'
+        description: Verification found. Http 200 will return body which will contain one of below statuses.
+        content:
+            application/json:
+                schema:
+                    $ref: ..\..\components\responses\MarketplaceVerificationGet\200.yaml
+    404:
+        x-summary: Not found
+        description: Verification not found.
+        content:
+            application/json:
+                schema:
+                    $ref: ..\..\components\responses\404.yaml
